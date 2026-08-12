@@ -22,7 +22,23 @@ Governs prose at three levels:
 - **Passage.** Every paragraph closes one gap and opens another. This is the hold engine.
 - **Piece.** Three exordium jobs at the door. Tension arc as hygiene. Every gap closed by the end.
 
-Openings get their own module, not because they are a separate discipline but because 55% of pageviews get under 15 seconds of attention, so that is where the same rules carry the most weight.
+Openings get their own module, not because they are a separate discipline but because 55% of pageviews get under 15 seconds of attention, so that is where the same rules carry the most weight. Closings get one because memory peaks there: across 174 effect sizes, retrospective evaluation is dominated by the peak and the end (r = .581). That module is a method, not a standard. List the open gaps, cut upward to the last true sentence, land on the concrete, then test the last line with no context around it.
+
+## The tells
+
+The pass that targets what a language model produces by default, rather than bad writing in general.
+
+| Tell | Rule |
+|---|---|
+| Em-dashes as a rhythm crutch | Zero under 500 words. Two per 1,000 above it |
+| "It's not X, it's Y" | Banned, including "the question isn't X, it's Y" |
+| No contractions | Contract unless stress, normative text, characterization, or clarity |
+| Reflexive caveats | Delete the hedge. If the sentence stays true, the hedge was posture |
+| Process narration | Prose describes its subject, never its own construction |
+| Restatement | Repeat a term, never restate a point. Includes the reflex that puts everything in threes |
+| Sycophantic openers | Start with the answer |
+
+Two more surfaces sit behind that. `coherence.md` is the maintainer: term ledger, claim ledger, given-new ordering, locked person and tense, callback integrity. It runs as a separate pass over finished text, mandatory past roughly 2,000 words, because a model's grip on its own earlier prose degrades with distance. `fiction.md` carries the delta for stories, including the one narrow em-dash exception the law allows, for interrupted dialogue.
 
 ## What makes it unusual
 
@@ -44,6 +60,9 @@ Openings get their own module, not because they are a separate discipline but be
 | `references/forms.md` | Exit speed and audience stance calibration |
 | `references/scorecard.md` | The 0 to 5 rubric |
 | `references/deslop.md` | Banned words, banned patterns, the em-dash law, the contraction default |
+| `references/tells.md` | The machine-prose tells, ranked, with the four laws that kill them |
+| `references/coherence.md` | The maintainer, and the pass that runs it |
+| `references/fiction.md` | The fiction delta |
 | `design.md` | Doc of record |
 
 ## Install

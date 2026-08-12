@@ -1,6 +1,6 @@
 ---
 name: peitho
-description: Use when writing or revising any prose longer than a few sentences, in any form and any medium: article, blog post, marketing copy, landing page, README, email, chapter, story, social post, release notes, or the prose parts of a spec. Also use when a draft reads flat, generic, or AI-written, when an opening has to hook a reader who can leave instantly, when persuasion has to stay honest, or when asked to audit prose for slop. Carries the em-dash law, the contraction default, the anti-slop catalog, and the honest-persuasion rail.
+description: Use when writing or revising any prose longer than a few sentences, in any form and any medium: article, blog post, marketing copy, landing page, README, email, chapter, story, social post, release notes, or the prose parts of a spec. Also use when a draft reads flat, generic, or AI-written, when an opening has to hook a reader who can leave instantly, when persuasion has to stay honest, or when asked to audit prose for slop. Also use when writing fiction, when a long piece needs a coherence pass, or when an ending has to close rather than trail off. Carries the em-dash law, the contraction default, the machine-prose tell catalog (hedging, process narration, restatement), the closing method, and the honest-persuasion rail.
 ---
 
 # Peitho
@@ -66,6 +66,34 @@ See `references/forms.md` for the calibration table.
 
 **Do not withhold the outcome to manufacture suspense.** Leavitt & Christenfeld (2011) tested 12 stories across ironic-twist, mystery, and literary genres. Spoiled versions were enjoyed *more*. Tension lives in *how*, not in *whether*. Strip every "all will be revealed" move. See `references/myths.md`.
 
+## Exit module: closings
+
+Openings get a module because exit risk peaks there. Closings get one because *memory* peaks there, and because "close every gap and land on something concrete" is a standard, not a method.
+
+Alaybek and colleagues (2022) meta-analyzed 174 effect sizes on the peak-end rule and found retrospective evaluation of an experience is dominated by two moments, the peak and the end, at r = .581. The peak effect was large and the end effect medium, both stronger than duration, beginning, or trough. A reader's verdict on a piece is not the average of the piece.
+
+Two consequences, and the first one is the one writers skip.
+
+**Build a peak on purpose.** A piece with no high point is remembered as flat no matter how good its average line is. Name the peak before drafting: the hardest evidence, the sharpest turn, the one passage worth the reader's time. Place it late, but not last. The end is not the peak, and trying to make it the peak is how endings become aphorisms.
+
+**Then write the end, which is the second lever and the one most drafts waste on a recap.**
+
+### The method
+
+1. **List every gap the piece opened.** Close the ones still open. Any gap you cannot close, name as open, in the text. An unclosed and unnamed gap is clickbait by definition.
+2. **Cut upward to the last true sentence.** Draft the ending, then delete from the bottom until you reach the last sentence carrying information rather than sentiment. That sentence is almost always the real ending. Everything below it was the recap and the flourish.
+3. **Land on the concrete.** The final sentence carries a name, a number, a date, or a mechanism. Never a feeling about the subject.
+4. **Test the last line alone.** Read it with no context. If it could end a different piece on a different subject, it is an aphorism. Delete it and use the sentence above it.
+
+**Plan the end first, write it last.** If you cannot name the final concrete fact before you start, the piece will end on sentiment by default.
+
+### Banned endings
+
+- **The recap.** "In conclusion," "ultimately," "to sum up," or a final paragraph restating the piece. The reader was just there.
+- **The aphorism.** The deep closing line that converts a specific argument into a general sentiment. Do not rewrite it into a better metaphor. Delete it.
+- **The bolted-on call to action** in prose that was not selling anything.
+- **The forward-looking gesture.** "Only time will tell," "the future of X is bright," "one thing is certain."
+
 ## The ethics rail
 
 This is not a disclaimer. The evidence makes it mandatory.
@@ -94,6 +122,25 @@ Reference point: `Janus/spec.md` shipped with 29 em-dashes across 148 lines, rou
 
 The rest of the slop catalog, absorbed wholesale from the retired `no-ai-slop`, is in `references/deslop.md`. Read it whenever writing prose of any length. It is not optional reading; the banned word list and the pattern list are laws, not suggestions.
 
+## The tells
+
+`references/tells.md` is the highest-value pass in the skill, because it catches what a language model produces *by default* rather than what is merely bad writing. Four laws live there in full:
+
+- **The hedge budget.** Hedging is legitimate and reflexive hedging is not. Delete a hedge; if the sentence stays true, the hedge was posture.
+- **No process narration.** Prose describes its subject, never its own construction. No "let me explain," no "here's where it gets interesting," no stage directions to the reader.
+- **Repeat terms, never restate points.** Repetition genuinely persuades (Dechêne et al. 2010, 51 studies). Restating a claim in fresh vocabulary one paragraph later is the tell. Includes the triadic reflex, where everything arrives in threes.
+- **No sycophantic runway.** Start with the answer.
+
+## Coherence
+
+`references/coherence.md` is the maintainer: one name per thing, given before new, every referent resolves, a claim ledger, locked person and tense, callback integrity, one question and one answer.
+
+It runs as a **separate pass on the finished text, before the deslop pass.** Structure first, lines second. Over roughly 2,000 words this is mandatory rather than advisory, because a model's grip on its own earlier text degrades with distance and cannot be fixed from inside a single drafting pass.
+
+## Fiction
+
+`references/fiction.md` carries the delta for fiction: dramatic gaps instead of informational ones, internal consistency in place of external truth, sensory concreteness, register as characterization, and one narrow em-dash exception for interrupted dialogue. Everything else carries over. Read it before writing a scene, a chapter, or a story.
+
 ## Workflow
 
 1. **Situate.** Name the form, the exit speed, and the audience stance. One line, internal.
@@ -101,10 +148,11 @@ The rest of the slop catalog, absorbed wholesale from the retired `no-ai-slop`, 
 3. **Choose a format that has moved real audiences.** Contrast, puzzle-solution, headline-punchline, or three-part list, from Heritage & Greatbatch. Not from lore.
 4. **Write the opening** to serve all three exordium jobs, with a visible gap and a true concrete anchor.
 5. **Write the body under the slot mechanic.** Each paragraph closes one gap, opens another.
-6. **Close every gap** before the end. Land on the clearest concrete sentence available, not on an aphorism.
-7. **Run the scorecard** in `references/scorecard.md`. Score understanding, attentional focus, presence, and emotional engagement, 0 to 5 each. These four dimensions are the empirically derived Narrative Engagement Measure (Busselle & Bilandzic 2009), not invented categories.
-8. **Run the deslop pass** against `references/deslop.md`, then the em-dash count, then the ethics rail.
-9. **If any check fails, fix and re-run.** Do not ship a draft that failed its own gate.
+6. **Close it by the method** in the exit module. List the open gaps, cut upward to the last true sentence, land on the concrete, test the last line alone.
+7. **Run the coherence pass** against `references/coherence.md`. Structure before lines, on the finished text.
+8. **Run the tells pass** against `references/tells.md`, then the deslop pass against `references/deslop.md`, then the em-dash count, then the ethics rail.
+9. **Run the scorecard** in `references/scorecard.md`. Score understanding, attentional focus, presence, and emotional engagement, 0 to 5 each. These four dimensions are the empirically derived Narrative Engagement Measure (Busselle & Bilandzic 2009), not invented categories.
+10. **If any check fails, fix and re-run.** Do not ship a draft that failed its own gate.
 
 ## Evidence tiers
 
@@ -121,6 +169,9 @@ Honest limit, stated so it cannot be oversold: narrative persuasion effects are 
 
 | File | Use it for |
 |---|---|
+| `references/tells.md` | The machine-prose tells, ranked. Hedging, process narration, restatement, sycophancy |
+| `references/coherence.md` | The maintainer. Term ledger, claim ledger, given-new, the coherence pass |
+| `references/fiction.md` | The fiction delta, including the narrow em-dash exception |
 | `references/evidence.md` | The full corpus, tiered and cited |
 | `references/orators.md` | Historical openings reverse-engineered step by step. Read this to imitate rather than guess |
 | `references/myths.md` | Five pieces of standard hook advice the evidence kills |

@@ -80,6 +80,9 @@ F:\Peitho\
     forms.md                exit speed and stance calibration
     scorecard.md            NEM 0 to 5 rubric
     deslop.md               absorbed from no-ai-slop
+    tells.md                machine-prose tells, ranked, four laws
+    coherence.md            the maintainer and its pass
+    fiction.md              the fiction delta
   deploy-skill.ps1
 ```
 
@@ -94,6 +97,14 @@ F:\Peitho\
 **Slop split.** Peitho prevents slop by construction with positive rules. The retired skill's detection catalog is absorbed into `deslop.md` rather than left as a second surface, per the duplicate-surface rule.
 
 **Writer's Press gate defaults to `advisory`, not `auto`.** An opening carries more authorial voice than any other passage, and silent rewriting is invasive there. One line in `gate-rules.json` flips it.
+
+**The tells are a separate file from the slop catalog (v1.2.0).** `deslop.md` catalogs bad writing. `tells.md` catalogs bad writing *a language model produces by default*, which is a different and higher-value pass. Keeping them separate means the tell table can be ranked by diagnostic strength without disturbing the craft catalog. Cross-references point at one canonical home per rule, per the duplicate-surface rule: the em-dash law, binary contrasts, and the contraction default stay in `deslop.md` and appear in `tells.md` only as ranked pointers.
+
+**The exit module is a method, not a standard (v1.2.0).** The original skill said "close every gap" and "land on a concrete sentence" and then gave no procedure, which is the exact failure it criticizes in other advice. Alaybek et al. (2022), 174 effect sizes, r = .581, licenses the fix: retrospective evaluation is dominated by peak and end, so a piece needs a deliberate peak placed late but not last, and a four-step close. The peak instruction matters more than the ending instruction, because the meta-analysis found the peak effect large and the end effect medium.
+
+**Coherence runs on finished text, not while drafting (v1.2.0).** Stated as a rule rather than a warning because the underlying limit cannot be instructed away: a model's grip on its own earlier text degrades with distance. The ledgers in `coherence.md` exist to be built from the text in front of you, not from recollection of having written it. Mandatory past roughly 2,000 words.
+
+**Fiction is a delta file, not a second skill (v1.2.0).** Four things change: gaps become dramatic, external truth becomes internal consistency, concreteness becomes sensory, and register becomes characterization. Everything else carries over. The em-dash law gets exactly one exception, for interrupted dialogue, because no other mark does that job. Tiering is honest: the corpus is about persuasion and comprehension, not novels, so most of the file is `[L]` and says so.
 
 **Contractions are a default, not a law (added v1.1.0).** The em-dash rule is a hard ceiling because a stray em-dash is always wrong. A full form is often right: under stress, in normative text, in characterization, and where the contraction misreads. So the rule sits at line level with four named exceptions rather than beside the em-dash law. It rests on Biber (1988), whose first and strongest dimension puts contractions on the involved pole and dense full-form prose on the informational one. Deliberately **not** justified by token savings: "cannot" and "can't" tokenize identically in common encodings, and a rule in this skill may not carry a claim the skill cannot support.
 

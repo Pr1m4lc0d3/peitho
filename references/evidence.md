@@ -98,6 +98,52 @@ Effects of vividness on persuasion are unreliable.
 
 ---
 
+## Endings and what a reader retains
+
+**Alaybek, Dalal, Fyffe, Aitken, Zhou, Qu, Roman & Baines (2022).** "All's well that ends (and peaks) well? A meta-analysis of the peak-end rule and duration neglect." *Organizational Behavior and Human Decision Processes* 170, 104149. `[M]`
+
+**174 effect sizes.** The peak-end effect on retrospective summary evaluation was large, **r = .581, 95% CI [.487, .661]**, and robust across the moderators examined. The peak effect was large; the end effect was medium. Both were stronger than duration, beginning, trough, trend, and variability effects.
+
+*Licenses:* the exit module in `SKILL.md`. A reader's verdict is not the average of the piece, so a piece needs a deliberate peak placed late but not last, and an ending built rather than tacked on. Note the honest caveat: this measures retrospective evaluation of hedonic episodes, not of reading specifically. It transfers by analogy, and it is tagged `[M]` for the strength of the meta-analysis rather than for direct evidence about prose.
+
+---
+
+## Repetition
+
+**Dechêne, Stahl, Hansen & Wänke (2010).** "The Truth About the Truth: A Meta-Analytic Review of the Truth Effect." *Personality and Social Psychology Review* 14(2), 238 to 257. `[M]`
+
+**51 studies** of the repetition-induced truth effect. Repeated statements are rated more true. Within items **d = .39, 95% CI [.30, .49]**; between items **d = .50, 95% CI [.43, .57]**, random effects. The between-items effect is the larger of the two.
+
+*Licenses:* law 3 in `tells.md`, and it is why that law is a distinction rather than a ban. Repetition is genuinely persuasive, so repeating a *term* is correct. Restating a *claim* in fresh vocabulary is the machine tell. Do not cite this to justify saying the same thing twice.
+
+---
+
+## Hedging
+
+**Hyland (1998).** *Hedging in Scientific Research Articles.* John Benjamins. `[E]`
+
+Systematic analysis of hedging forms across journal articles plus interviews with research scientists. Hedges are abundant in scientific writing and functional: they present a claim as plausible reasoning rather than certainty, and they express collegiality rather than presumption. Hyland's position is that the belief that professional scientific writing is a series of impersonal statements of fact is itself mistaken.
+
+*Licenses:* the hedge budget in `tells.md`, and it is why that law is a budget rather than a prohibition. A writer who never hedges is overclaiming. The failure mode is undifferentiated hedging at uniform density, which is what a model does by default.
+
+---
+
+## Coherence
+
+**Kintsch & van Dijk (1978).** "Toward a Model of Text Comprehension and Production." *Psychological Review* 85, 363 to 394. `[E]`
+
+Models comprehension as the reader organizing meaning elements into a connected whole and condensing the text to its gist.
+
+*Licenses:* treating coherence as structural work the reader performs, not as a stylistic nicety.
+
+**Haviland & Clark (1974).** "What's new? Acquiring new information as a process in comprehension." *Journal of Verbal Learning and Verbal Behavior* 13, 512 to 521. `[E]`
+
+The given-new strategy: a reader searches memory for an antecedent matching a sentence's *given* information, then attaches the *new* information to it. **Comprehension time was fastest when the antecedent was directly available and slowest when it had to be inferred.**
+
+*Licenses:* rule 2 in `coherence.md`, given before new. This is a measured processing cost, not a preference, which is why it outranks the other coherence rules.
+
+---
+
 ## Spoilers
 
 **Leavitt & Christenfeld (2011).** "Story Spoilers Don't Spoil Stories." *Psychological Science*. `[E]`

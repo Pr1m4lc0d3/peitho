@@ -27,7 +27,10 @@ $needed = @(
     'references\ethics.md',
     'references\forms.md',
     'references\scorecard.md',
-    'references\deslop.md'
+    'references\deslop.md',
+    'references\tells.md',
+    'references\coherence.md',
+    'references\fiction.md'
 )
 
 # ── Validate ──────────────────────────────────────────────────────────────
@@ -76,7 +79,22 @@ if (-not $law) {
     exit 1
 }
 
+# Each law is verified in the DEPLOYED file, not assumed from a successful copy.
+$laws = @{
+    'references\deslop.md'    = 'The contraction default'
+    'references\tells.md'     = 'the hedge budget'
+    'references\coherence.md' = 'Given before new'
+    'references\fiction.md'   = 'The em-dash exception'
+    'SKILL.md'                = 'Exit module: closings'
+}
+foreach ($rel in $laws.Keys) {
+    if (-not (Select-String -Path (Join-Path $dest $rel) -Pattern $laws[$rel] -SimpleMatch -Quiet)) {
+        Write-Host "Deployed $rel is missing: $($laws[$rel])" -ForegroundColor Red
+        exit 1
+    }
+}
+
 Write-Host "Peitho deployed to $dest" -ForegroundColor Green
-Write-Host "Verified: $($deployed.Count) files, em-dash law present." -ForegroundColor Green
+Write-Host "Verified: $($deployed.Count) files, $($laws.Count + 1) laws present in the deployed copies." -ForegroundColor Green
 Write-Host ""
 Write-Host "Restart is not required. Skills are read per session." -ForegroundColor Gray
