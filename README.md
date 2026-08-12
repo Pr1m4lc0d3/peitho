@@ -1,6 +1,6 @@
 # Peitho
 
-![Peitho, the Orator](assets/og-peitho.png)
+![Peitho, the Orator](og/peitho-og.png)
 
 **A master orator and persuasion skill for Claude Code.**
 
