@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "A master orator and persuasion skill for Claude Code.",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "peitho",
       "source": "./",
       "description": "Makes prose pull a reader in and hold them there, without lying to them. Every paragraph closes one gap and opens another. Fabricating a concrete detail is a blocking rule, because concreteness is exactly what the method rewards.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Ryan Heltemes",
         "url": "https://ryan-heltemes.com"

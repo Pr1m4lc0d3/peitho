@@ -48,7 +48,7 @@ Both failure modes follow: withhold everything (no visible gap) and explain ever
 
 | Level | Governs |
 |---|---|
-| Line | concreteness on an inverted U, figures welcome, complexity permitted, verbs carry |
+| Line | concreteness on an inverted U, figures welcome, complexity permitted, verbs carry, contractions by default |
 | Passage | the slot mechanic: every paragraph closes one gap and opens another |
 | Piece | three exordium jobs at the door, tension arc as hygiene, every gap closed by the end |
 
@@ -94,6 +94,8 @@ F:\Peitho\
 **Slop split.** Peitho prevents slop by construction with positive rules. The retired skill's detection catalog is absorbed into `deslop.md` rather than left as a second surface, per the duplicate-surface rule.
 
 **Writer's Press gate defaults to `advisory`, not `auto`.** An opening carries more authorial voice than any other passage, and silent rewriting is invasive there. One line in `gate-rules.json` flips it.
+
+**Contractions are a default, not a law (added v1.1.0).** The em-dash rule is a hard ceiling because a stray em-dash is always wrong. A full form is often right: under stress, in normative text, in characterization, and where the contraction misreads. So the rule sits at line level with four named exceptions rather than beside the em-dash law. It rests on Biber (1988), whose first and strongest dimension puts contractions on the involved pole and dense full-form prose on the informational one. Deliberately **not** justified by token savings: "cannot" and "can't" tokenize identically in common encodings, and a rule in this skill may not carry a claim the skill cannot support.
 
 **Evidence tiers `[M] [E] [C] [L] [?]`.** Lore is permitted and labeled. Two figures in the corpus could not be traced to a primary source and are quarantined in `evidence.md` under `[?]` rather than used.
 

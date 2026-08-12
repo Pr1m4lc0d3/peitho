@@ -18,7 +18,7 @@ Two thousand three hundred years apart, three traditions on the same point. With
 
 Governs prose at three levels:
 
-- **Line.** Concreteness calibrated to an inverted U. Rhetorical figures welcome, at no comprehension cost. Complexity permitted.
+- **Line.** Concreteness calibrated to an inverted U. Rhetorical figures welcome, at no comprehension cost. Complexity permitted. Contractions by default, because full forms are a register and not a correctness standard.
 - **Passage.** Every paragraph closes one gap and opens another. This is the hold engine.
 - **Piece.** Three exordium jobs at the door. Tension arc as hygiene. Every gap closed by the end.
 
@@ -43,7 +43,7 @@ Openings get their own module, not because they are a separate discipline but be
 | `references/ethics.md` | The honest-persuasion rail |
 | `references/forms.md` | Exit speed and audience stance calibration |
 | `references/scorecard.md` | The 0 to 5 rubric |
-| `references/deslop.md` | Banned words, banned patterns, the em-dash law |
+| `references/deslop.md` | Banned words, banned patterns, the em-dash law, the contraction default |
 | `design.md` | Doc of record |
 
 ## Install

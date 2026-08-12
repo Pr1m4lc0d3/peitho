@@ -16,6 +16,29 @@ Hard limits. This is the rule that had to be restated by hand for months.
 
 A period, colon, comma, semicolon, or parentheses is always available and almost always better. Remove clusters and decorative dashes. Never use an em-dash as a default rhythm crutch.
 
+## The contraction default
+
+Contract by default. "It's," "don't," "you're," "we'll," "isn't," "can't," "there's." This holds in every form Peitho covers: chat replies, articles, marketing copy, README prose, email, dialogue, release notes.
+
+Full forms are not more correct. They are a different register. Biber (1988) factor-analyzed 67 linguistic features across a corpus of spoken and written English and found contractions load on the positive pole of his first dimension, "Involved versus Informational Production," alongside first and second person pronouns and present-tense verbs. The opposite pole of that dimension is planned, informational, and distant. A piece written entirely in full forms lands there whether the writer meant it to or not, and the reader feels the distance before they can name it. `[E]` for the register finding. Uniform full forms are also one of the most reliable surface tells of machine-written prose, which is craft observation rather than a measured result: `[L]`.
+
+Expand a contraction only for one of four reasons.
+
+1. **Stress.** "I do not agree" hits harder than "I don't agree." That only works while it stays rare.
+2. **Normative text.** Requirements, license terms, and MUST or SHALL lines in a spec. Contractions soften the force of an obligation. The rules files in this skill are written in full forms deliberately, for that reason.
+3. **Characterization.** A character whose register is formal, stiff, or archaic. Register is characterization. Use it on purpose.
+4. **Clarity.** Where the contraction misreads on a first pass, write it out.
+
+Everything else contracts.
+
+Three things the rule does not license:
+
+- **Dialect spellings.** "Gonna," "shoulda," "kinda," "'em" are dialect, not register. They belong in dialogue and in a deliberately spoken voice, not in body copy by default.
+- **Stacked contractions.** "It'd've," "there'd've," "mightn't've." They read as a stutter. One contraction per word.
+- **Agreement errors.** "There's three reasons" is wrong. Contracting never licenses a singular verb before a plural subject.
+
+When editing someone else's draft, contracting is usually a minimum effective edit that recovers the writer's speaking voice. But a writer who consistently and deliberately writes in full forms has a voice too. Preserve it and say what you noticed, rather than overwriting it.
+
 ## Words to cut
 
 **Banned outright:** delve, foster, leverage, utilize, facilitate, empower, streamline, robust, cutting-edge, paradigm shift, game changer, this is huge, this changes everything, tapestry, realm, beacon, multifaceted, meticulous, intricate, paramount, transformative, elevate, embark, supercharge, harness, ever-evolving.
@@ -87,12 +110,13 @@ These govern revision of someone else's draft. Preserve the writer; remove the m
 Run every one. Any failure means fix and re-run.
 
 1. Em-dash count within the ceiling for this length and context.
-2. Zero banned words present.
-3. No pattern from the catalog above survives.
-4. Every paragraph has at least one concrete anchor, and every anchor is true.
-5. No claim without a nameable source.
-6. Opening serves attention, receptiveness, and goodwill.
-7. Every gap opened is closed inside the piece.
-8. Ending lands on a concrete sentence, not an aphorism or a recap.
-9. Sentence shapes vary.
-10. Scorecard thresholds met (see `scorecard.md`).
+2. Contractions used by default. Every surviving full form is there for stress, normative text, characterization, or clarity.
+3. Zero banned words present.
+4. No pattern from the catalog above survives.
+5. Every paragraph has at least one concrete anchor, and every anchor is true.
+6. No claim without a nameable source.
+7. Opening serves attention, receptiveness, and goodwill.
+8. Every gap opened is closed inside the piece.
+9. Ending lands on a concrete sentence, not an aphorism or a recap.
+10. Sentence shapes vary.
+11. Scorecard thresholds met (see `scorecard.md`).

@@ -1,6 +1,6 @@
 ---
 name: peitho
-description: Use when writing or revising any prose longer than a few sentences, in any form and any medium: article, blog post, marketing copy, landing page, README, email, chapter, story, social post, release notes, or the prose parts of a spec. Also use when a draft reads flat, generic, or AI-written, when an opening has to hook a reader who can leave instantly, when persuasion has to stay honest, or when asked to audit prose for slop. Carries the em-dash law, the anti-slop catalog, and the honest-persuasion rail.
+description: Use when writing or revising any prose longer than a few sentences, in any form and any medium: article, blog post, marketing copy, landing page, README, email, chapter, story, social post, release notes, or the prose parts of a spec. Also use when a draft reads flat, generic, or AI-written, when an opening has to hook a reader who can leave instantly, when persuasion has to stay honest, or when asked to audit prose for slop. Carries the em-dash law, the contraction default, the anti-slop catalog, and the honest-persuasion rail.
 ---
 
 # Peitho
@@ -35,6 +35,7 @@ Work all three. A perfect first line above flat paragraphs still loses the reade
 - **Complexity is allowed.** Ashok, Feng & Choi (2013) classified successful novels at 84% accuracy and found they ran *more* syntactically complex, against readability. Correlational only, so do not chase complexity. But never flatten prose on the theory that short equals engaging.
 - **Vary sentence shape.** Repeated shapes and stacked fragments read as machine output.
 - **Make verbs carry the sentence.** "Decided" beats "made a decision."
+- **Contract by default.** "It's," "don't," "you're," "we'll." Full forms are not more correct, they are a different register: contractions load on the *involved* pole of Biber's first dimension, and prose written entirely in full forms lands on the distant, informational pole whether the writer meant it to or not. It is also the most reliable surface tell of machine-written text. Expand only for stress, normative text, characterization, or clarity. Rule and its three abuses in `references/deslop.md`.
 
 ### Passage level
 
@@ -126,4 +127,4 @@ Honest limit, stated so it cannot be oversold: narrative persuasion effects are 
 | `references/ethics.md` | The honest-persuasion rail, derived |
 | `references/forms.md` | Exit speed and audience stance calibration |
 | `references/scorecard.md` | The 0 to 5 rubric and its thresholds |
-| `references/deslop.md` | Banned words, banned patterns, em-dash law, self-check |
+| `references/deslop.md` | Banned words, banned patterns, em-dash law, contraction default, self-check |

@@ -1,7 +1,7 @@
 {
   "name": "peitho",
   "description": "A master orator and persuasion skill for Claude Code. Makes prose pull a reader in and hold them there, end to end, without lying to them. Carries the em-dash law, the anti-slop catalog, and an honest-persuasion rail derived from the evidence rather than bolted on.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Ryan Heltemes",
     "url": "https://ryan-heltemes.com"

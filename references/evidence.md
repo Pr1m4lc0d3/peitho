@@ -118,6 +118,20 @@ Statistical stylometry discriminated more from less successful books at up to **
 
 ---
 
+## Register
+
+**Biber (1988).** *Variation across Speech and Writing.* Cambridge University Press. `[E]`
+
+Factor analysis of 67 linguistic features across a corpus of spoken and written English. The first and strongest dimension, "Involved versus Informational Production," separates interactive, affective, generalized text from dense informational text. **Contractions carry a positive loading on the involved pole**, alongside first and second person pronouns, present-tense verbs, private verbs, and *that*-deletion. Nouns, prepositions, longer words, and high type-token ratio load on the informational pole.
+
+*Licenses:* the contraction default in `deslop.md`. Full forms are a register choice, not a correctness standard, and a piece written entirely in them sits at the distant end of the strongest measured dimension in English style. Note the limit: this describes register, not persuasive effect. No study here shows contractions persuade better.
+
+**"Uniform full forms are a tell for machine-written prose."** `[L]`
+
+Craft observation from editing, not a measured result. Held because it is consistently useful and it costs nothing if wrong: the register argument above already carries the rule.
+
+---
+
 ## Classical rhetoric
 
 **Cicero, *De Inventione*; *Rhetorica ad Herennium*.** `[L-classical]`
