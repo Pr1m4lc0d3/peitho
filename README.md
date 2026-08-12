@@ -48,11 +48,24 @@ Openings get their own module, not because they are a separate discipline but be
 
 ## Install
 
-```powershell
-.\deploy-skill.ps1
+**As a plugin,** which keeps it updated in place:
+
+```
+/plugin marketplace add Pr1m4lc0d3/peitho
+/plugin install peitho@peitho
 ```
 
-Copies the skill to `C:\Users\Daladim\.claude\skills\peitho\`. Pass `-SkipDeploy` to stage without installing.
+**By hand:**
+
+```bash
+git clone https://github.com/Pr1m4lc0d3/peitho
+cp -r peitho ~/.claude/skills/
+```
+
+`SKILL.md` and `references/` are the whole skill. Everything else in the repo is source material.
+
+**For local development** there is `deploy-skill.ps1`, which stages and copies in one step. Pass
+`-SkipDeploy` to validate without installing.
 
 ## Honest limits
 
