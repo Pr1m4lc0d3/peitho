@@ -50,13 +50,16 @@ CONFIGS = {
     ),
     "janus": dict(
         out="janus-og.png",
-        box=(134, 175, 578, 844),
+        box=(134, 175, 577, 843),
         kicker="CONTRADICTION IS THE POSITION",
         headline="Every other framework dissolves a contradiction. This one refuses.",
+        # Straight from janus/SKILL.md steps 1, 2 and 4. Do NOT write "what a
+        # rival must give up" here: that is Idea Forge Pro's moat gate, a
+        # different thing, and Janus is explicitly not a pipeline stage.
         bullets=[
-            "Name the two things that must both be true",
-            "Take the position that falls out of holding both",
-            "Test it: what would a rival have to give up?",
+            "Name the pair that must both be true",
+            "Ban the three exits: compromise, sequence, segment",
+            "Harvest a mechanism, not a slogan. Neither pole weakens.",
         ],
         footer="github.com/Pr1m4lc0d3/janus",
     ),
