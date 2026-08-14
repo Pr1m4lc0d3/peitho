@@ -94,6 +94,14 @@ foreach ($rel in $laws.Keys) {
     }
 }
 
+# The fork decides Compose vs Edit. Without it the skill recomposes a user's
+# draft and returns a better piece in the wrong voice.
+$fork = Select-String -Path (Join-Path $dest 'SKILL.md') -Pattern '## The fork' -SimpleMatch -Quiet
+if (-not $fork) {
+    Write-Host "Deployed SKILL.md is missing the Compose/Edit fork." -ForegroundColor Red
+    exit 1
+}
+
 Write-Host "Peitho deployed to $dest" -ForegroundColor Green
 Write-Host "Verified: $($deployed.Count) files, $($laws.Count + 1) laws present in the deployed copies." -ForegroundColor Green
 Write-Host ""

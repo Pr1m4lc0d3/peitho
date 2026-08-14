@@ -1,6 +1,6 @@
 ---
 name: peitho
-description: Use when writing or revising any prose longer than a few sentences, in any form and any medium: article, blog post, marketing copy, landing page, README, email, chapter, story, social post, release notes, or the prose parts of a spec. Also use when a draft reads flat, generic, or AI-written, when an opening has to hook a reader who can leave instantly, when persuasion has to stay honest, or when asked to audit prose for slop. Also use when writing fiction, when a long piece needs a coherence pass, or when an ending has to close rather than trail off. Carries the em-dash law, the contraction default, the machine-prose tell catalog (hedging, process narration, restatement), the closing method, and the honest-persuasion rail.
+description: Use when writing or revising any prose longer than a few sentences, in any form and any medium: article, blog post, marketing copy, landing page, README, email, chapter, story, social post, release notes, or the prose parts of a spec. Also use when a draft reads flat, generic, or AI-written, when an opening has to hook a reader who can leave instantly, when persuasion has to stay honest, or when asked to audit prose for slop. Also use when writing fiction, when a long piece needs a coherence pass, or when an ending has to close rather than trail off. Carries the em-dash law, the contraction default, the machine-prose tell catalog (hedging, process narration, restatement), the closing method, and the honest-persuasion rail. When the user supplies a draft they wrote, this skill's job is to edit it in their voice, never to recompose it.
 ---
 
 # Peitho
@@ -141,7 +141,36 @@ It runs as a **separate pass on the finished text, before the deslop pass.** Str
 
 `references/fiction.md` carries the delta for fiction: dramatic gaps instead of informational ones, internal consistency in place of external truth, sensory concreteness, register as characterization, and one narrow em-dash exception for interrupted dialogue. Everything else carries over. Read it before writing a scene, a chapter, or a story.
 
+## The fork
+
+Run this before anything else. It is the first determination, and every step after it depends on which way it goes.
+
+**Did the user supply a draft they wrote?**
+
+- **No draft.** The job is **Compose**. Run the workflow below, all ten steps.
+- **A draft exists.** The job is **Edit**. Run the edit procedure. The composition workflow is off.
+
+Getting this fork wrong is the most damaging failure this skill can produce, and it is not a small miss. Composing over someone's draft returns them a piece that scores better on every gate in this file and is no longer theirs. The writer loses the thing they came with. A cleaner piece in a stranger's voice is worth less to them than a rough piece in their own, and they are right about that.
+
+The doctrine in this file was built for prose that does not exist yet. On a draft, it is diagnostic, never a mandate.
+
+### The edit procedure
+
+1. **Read for voice before changing a word.** Vocabulary, cadence, bluntness, humor, digressions, level of polish. Name it to yourself. That is the thing being protected.
+2. **Fix only what is broken.** Em-dashes over the ceiling, banned words, patterns from the catalog, factual errors, genuinely unclear passages. Nothing else.
+3. **Do not restructure.** No reordering, no merging, no replacing an opening or an ending that works. A better one existing is not a reason. A line that fails a rule but carries the writer stays.
+4. **Never trade a first-person sentence for a fact.** "I hate talking about myself" is not weaker than a statistic. In the writer's own story it is stronger, and swapping it is the exact move that guts a draft while passing every gate.
+5. **Return the draft plus an itemized list of what changed**, so the writer can reject any single edit.
+
+**The count test, before returning anything.** Count the sentences you changed. If it is most of them, you composed. Discard it and edit again from the original.
+
+**Personal narrative is the highest-risk case.** When the subject is the writer's own life, the voice is the content. There is no separating them, and no version of "I improved the prose" that survives losing it. Edit punctuation and slop. Leave the sentences.
+
+The longer form of these rules, absorbed from `no-ai-slop`, is under "Editing principles" and "Two jobs" in `references/deslop.md`. They were always in the skill. They were in a reference file with no gate pointing at them, which is why they did not fire.
+
 ## Workflow
+
+This is the **Compose** path. On a draft, use the edit procedure above instead.
 
 1. **Situate.** Name the form, the exit speed, and the audience stance. One line, internal.
 2. **Name the gap.** What will the reader be unable to stop wondering? State it to yourself in a sentence. If you cannot, you have no piece yet.
