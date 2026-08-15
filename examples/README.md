@@ -19,6 +19,9 @@ only: the em-dash law, and the flab that a hedge leaves behind.
 Peitho does not swap an em-dash for a shorter dash. It asks what the sentence was
 actually doing and gives it the right mark.
 
+The three em-dashes below are quoted specimens of the text being removed. They are
+the only ones in this file, and they are here to be looked at.
+
 **A period**, where the dash was welding two complete thoughts together.
 
 > a face, what it does, one button → roster. **A face**, what it does, one button
