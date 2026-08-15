@@ -113,12 +113,36 @@ Full derivation in `references/ethics.md`.
 
 Non-negotiable, because this is the rule that kept getting restated by hand.
 
+### The ceiling
+
 - **Chat replies and conversational prose: zero em-dashes.**
 - **Anything under 500 words: zero.**
 - **Longer prose: at most 2 per 1,000 words, and never two in one paragraph.**
-- Use a period, colon, comma, semicolon, or parentheses. One of them is always better.
+- Use a period, colon, comma, semicolon, or parentheses. One of them is almost always better.
 
-Reference point: `Janus/spec.md` shipped with 29 em-dashes across 148 lines, roughly seven times the ceiling in Deliberon's own `GateRules.MaxEmDashesPerChapter`. The rule existed. It was never enforced. Enforcement now lives in `CLAUDE.md` (before generation) and in the Peitho hooks (after).
+### The test, and it is a test of the alternative
+
+**An em-dash is justified only when a period, colon, comma, semicolon, and parentheses would each be *wrong*, not merely *different*.** If one of them would work and you prefer the dash, the dash is a rhythm crutch. Write the alternative.
+
+This is the falsifiable form of the rule, and the form matters more than the ceiling. "Is this dash justified?" answers yes every time, because a writer can always narrate a reason after the fact. "Would every other mark be wrong?" almost always answers no, and it answers without appeal to taste. Ask the second question.
+
+### The three justified uses, and the list is closed
+
+These do not count against the ceiling.
+
+1. **Interrupted speech.** Dialogue cut off mid-word or mid-sentence: `"But I told you the bridge was—"` No other mark does this. It holds wherever speech is quoted, including transcripts and interviews, not only in fiction.
+2. **A parenthetical whose own content carries a comma.** `The three of them—Ana, Beth, and Cal—arrived late.` Commas would go ambiguous against the inner list, and parentheses demote an aside that belongs on the sentence's main line.
+3. **Attribution before a source**, in an epigraph, pull quote, or blockquote credit: `—Aristotle, Rhetoric I.2`
+
+**The list does not grow by analogy.** A use that "feels like" an interruption is not one. If you are arguing that your case resembles one of the three, it is not one of the three.
+
+### What is not justified, and this is where the abuse lives
+
+**The sudden turn in a sentence's own grammar.** It feels earned every time, and it is the single largest source of dash inflation. A worked example, measured rather than asserted: `ryan-heltemes.com` carried 60 em-dashes across eight pages. Seven of those pages run under 500 visible words, so the ceiling that applied to them was zero. The Garden of Revolution page alone ran 9 in 382 words, about twelve times what long prose is even allowed, and five of its six book blurbs opened on the same dash construction, which is what made it read as a tic rather than as punctuation. Every one of the 42 removed was a turn or an aside that a colon or a period took without loss. Exactly one earned a real mark, and it was case 2 above, so it became parentheses.
+
+Reference point: `Janus/spec.md` shipped with 29 em-dashes across 148 lines, roughly seven times the ceiling in Deliberon's own `GateRules.MaxEmDashesPerChapter`. The rule existed. It was never enforced. Enforcement now lives in `CLAUDE.md` (before generation) and in `hooks/peitho-prose-check.ps1` (at the write), which implements the ceiling and all three exclusions.
+
+**An exception the enforcement cannot see is not an exception.** Each of the three is detectable mechanically, which is why they are these three and not a longer list of good intentions. `fiction.md` permitted interrupted speech for months while the hook blocked it anyway, because the hook had no idea the exception existed.
 
 The rest of the slop catalog, absorbed wholesale from the retired `no-ai-slop`, is in `references/deslop.md`. Read it whenever writing prose of any length. It is not optional reading; the banned word list and the pattern list are laws, not suggestions.
 

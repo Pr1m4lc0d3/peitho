@@ -34,11 +34,13 @@ Interrupted dialogue conventionally breaks on an em-dash, and no other mark does
 
 > "But I told you the bridge was—"
 
-**Allowed:** interruption, in dialogue, in fiction. These do not count against the em-dash ceiling.
+**This is no longer a fiction-only carve-out.** It is use 1 of the three named uses in `SKILL.md`, which hold in every form Peitho covers: a transcript, an interview, a quoted exchange in reportage. Fiction is where it comes up most, not where it is licensed. The other two, a comma-bearing aside and an attribution line, apply here as well.
 
-**Not allowed:** em-dashes in narration, em-dashes for emphasis or aside, em-dashes as a rhythm crutch anywhere. The ceiling applies in full to every line that is not an interrupted speech.
+**Allowed:** interruption, wherever speech is quoted. It does not count against the em-dash ceiling.
 
-This is a real exception for a real typographic need. It is not a reopening of the law.
+**Not allowed:** em-dashes in narration, em-dashes for emphasis or aside without an inner comma, em-dashes as a rhythm crutch anywhere. The ceiling applies in full to every line that is not one of the three.
+
+This is a real exception for a real typographic need. It is not a reopening of the law. The test in `SKILL.md` governs: an em-dash earns its place only when every other mark would be wrong, not merely different.
 
 ## The craft rules
 
@@ -65,7 +67,7 @@ All `[L]` unless marked.
 1. Every scene closes one dramatic gap and opens another.
 2. One point of view per scene.
 3. Continuity ledger checked: names, physical details, timeline, established facts.
-4. Every em-dash is an interruption inside dialogue. Every other one is gone.
+4. Every em-dash is one of the three named uses in `SKILL.md`, and in fiction that is nearly always an interruption inside dialogue. Every other one is gone.
 5. Emotion labels cut in favor of action.
 6. Characters named, not described by attribute.
 7. Real-world facts inside the fiction are accurate.

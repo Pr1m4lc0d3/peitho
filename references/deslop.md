@@ -16,6 +16,20 @@ Hard limits. This is the rule that had to be restated by hand for months.
 
 A period, colon, comma, semicolon, or parentheses is always available and almost always better. Remove clusters and decorative dashes. Never use an em-dash as a default rhythm crutch.
 
+**The test is of the alternative, not of the dash.** An em-dash is justified only when a period, colon, comma, semicolon, and parentheses would each be *wrong*, not merely *different*. "Is this dash justified?" answers yes every time. "Would every other mark be wrong?" almost always answers no. Ask the second one.
+
+Three uses do not count against the ceiling, and the list is closed.
+
+| Justified use | Example | Why no other mark does it |
+|---|---|---|
+| Interrupted speech | `"the bridge was—"` | A cut-off has no other typographic form |
+| Comma-bearing aside | `them—Ana, Beth, and Cal—left` | Commas go ambiguous; parentheses demote it |
+| Attribution | `—Aristotle, Rhetoric I.2` | The convention for a credit line |
+
+**The list does not grow by analogy.** If you are arguing that your case resembles one of the three, it is not one of the three. The sudden turn in a sentence's own grammar is the case that always feels earned and never is; it is where dash inflation comes from.
+
+All three are detectable by `hooks/peitho-prose-check.ps1`, which is why they are these three. An exception the enforcement cannot see is not an exception.
+
 ## The contraction default
 
 Contract by default. "It's," "don't," "you're," "we'll," "isn't," "can't," "there's." This holds in every form Peitho covers: chat replies, articles, marketing copy, README prose, email, dialogue, release notes.
