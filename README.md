@@ -89,3 +89,15 @@ cp -r peitho ~/.claude/skills/
 ## Honest limits
 
 Narrative persuasion effects are real and modest, around r = .17 to .23. No structural formula predicts success. Peitho is an engineered procedure assembled from evidenced components: the components are cited, the assembly is a construction.
+
+---
+
+## Where this came from
+
+Deliberon is a Windows desktop app that runs a council of AI agents on a hard decision and hands back a Decision Record: dissent preserved, every claim marked as proved, asserted, or estimated.
+
+Peitho is the prose method behind its writing, published in full because a persuasion technique you cannot inspect is one you cannot defend against.
+
+Pay once, it's yours, no subscription. Thirty days of the full council with no account and no card. Runs on your machine with your own model keys.
+
+https://deliberon.com
