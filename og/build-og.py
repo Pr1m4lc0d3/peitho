@@ -46,7 +46,7 @@ CONFIGS = {
             "Openings that earn the next paragraph",
             "Every claim sourced. No invented detail.",
         ],
-        meta="MIT  ·  10 openings taken apart  ·  every claim evidence-tiered",
+        meta="10 openings taken apart  ·  every claim evidence-tiered",
     ),
     "janus": dict(
         out="janus-og.png",
@@ -61,7 +61,7 @@ CONFIGS = {
             "Ban the three exits: compromise, sequence, segment",
             "Harvest a mechanism, not a slogan. Neither pole weakens.",
         ],
-        meta="MIT  ·  5 steps  ·  3 worked examples",
+        meta="5 steps  ·  3 worked examples",
     ),
 }
 
